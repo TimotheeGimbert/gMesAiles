@@ -9,7 +9,6 @@ class EmailsController < ApplicationController
     puts @email
     if @email.save 
       puts @email
-      redirect_to emails_path
     else
       flash.now[:danger] = 'Invalid email parameters !'
       render 'new'
