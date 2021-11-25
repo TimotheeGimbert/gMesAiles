@@ -21,3 +21,22 @@ a {
   &:visited {text-decoration: none !important;}
   &:active {text-decoration: none !important;}
 }
+
+.emails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: honeydew;
+
+  &__object {
+    width: 200px;
+    background-color: green;
+  }
+
+  &__body {
+    width: 400px;
+    background-color: brown;
+  }
+}
