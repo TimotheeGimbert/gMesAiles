@@ -6,7 +6,6 @@ class EmailsController < ApplicationController
 
   def create
     @email = Email.new(object: Faker::Ancient.god, body: Faker::Lorem.sentence(word_count: 11))
-    puts @email
     if @email.save 
       puts @email
     else

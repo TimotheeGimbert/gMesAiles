@@ -1,2 +1,2 @@
 console.log('js executed');
-document.getElementsByClassName('emails__objects')[0].insertAdjacentHTML("beforeend", "<div>New email</div>");
+document.getElementsByClassName('emails__objects')[0].insertAdjacentHTML("beforeend", "<%= j render 'email', email: @email %>");
