@@ -32,11 +32,13 @@ a {
 
   &__object {
     width: 200px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.377);
+    padding: 33px;
   }
 
   &__body {
     width: 400px;
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0.397);
+    padding: 22px;
   }
 }
