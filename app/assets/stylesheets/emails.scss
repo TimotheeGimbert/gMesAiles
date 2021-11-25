@@ -47,7 +47,9 @@ aside {
   }
 
   &__object {
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+
     background-color: rgba(0, 128, 0, 0.377);
     padding: 33px;
   }

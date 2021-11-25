@@ -8,7 +8,11 @@
     <div class="emails--heading">
       Liste des emails
     </div>
-    emails__object
+    <% @emails.each do |e| %>
+      <div> 
+        <%= e.object %>
+      </div>  
+    <% end %>
   </section>
 
   <section class="emails__body">

@@ -1,7 +1,7 @@
 class EmailsController < ApplicationController
 
   def index
-
+    @emails = Email.all
   end
 
   def create
@@ -11,7 +11,6 @@ class EmailsController < ApplicationController
       puts @email
       redirect_to root_path
     else
-      puts "issue"
       flash.now[:danger] = 'Invalid email parameters !'
       render 'new'
     end
