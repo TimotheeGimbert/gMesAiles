@@ -30,6 +30,12 @@ a {
   height: 600px;
   background-color: honeydew;
 
+  &--heading {
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    margin-bottom: 44px;
+  }
+
   &__object {
     width: 200px;
     background-color: rgba(0, 128, 0, 0.377);
