@@ -17,7 +17,10 @@ class EmailsController < ApplicationController
       format.html { redirect_to emails_path }
       format.js { }
     end
+  end
 
+  def show 
+    @email = Email.find(params[:id])
   end
 
 end

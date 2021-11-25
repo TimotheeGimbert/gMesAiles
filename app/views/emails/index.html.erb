@@ -11,6 +11,7 @@
     <% @emails.each do |email| %>
       <div> 
         <%= email.object %>
+        <%= link_to 'show email', email_path(email.id) %>
       </div>  
     <% end %>
   </section>
