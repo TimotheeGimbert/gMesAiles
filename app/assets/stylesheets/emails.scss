@@ -1,3 +1,23 @@
 // Place all the styles related to the emails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+img {box-sizing: content-box;}
+
+body {
+  height: 100%;       
+  margin: 0;        
+  padding: 0;         
+
+  background-color: antiquewhite;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+a { 
+  &:link {text-decoration: none !important;}
+  &:visited {text-decoration: none !important;}
+  &:active {text-decoration: none !important;}
+}
