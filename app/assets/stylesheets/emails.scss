@@ -10,9 +10,7 @@ body {
   height: 100%;       
   margin: 0;        
   padding: 0;         
-
   background-color: antiquewhite;
-
   font-family: 'Roboto', sans-serif;
 }
 
@@ -20,6 +18,17 @@ a {
   &:link {text-decoration: none !important;}
   &:visited {text-decoration: none !important;}
   &:active {text-decoration: none !important;}
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    justify-content: center;
+    background-color: rgba(238, 127, 63, 0.774);
+    margin: 44px 111px;
+  }
 }
 
 .emails {
