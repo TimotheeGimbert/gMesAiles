@@ -10,7 +10,7 @@ body {
   height: 100%;       
   margin: 0;        
   padding: 0;         
-  background-color: antiquewhite;
+  background-color: rgb(87, 83, 83);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -27,7 +27,7 @@ aside {
 
   > * {
     justify-content: center;
-    background-color: rgba(238, 127, 63, 0.774);
+    background-color: rgba(221, 218, 216, 0.774);
     margin: 44px 111px;
   }
 }
@@ -37,7 +37,7 @@ aside {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: honeydew;
+  background-color: rgb(48, 46, 46);
 
   &--heading {
     background-color: rgb(255, 254, 254);
@@ -49,7 +49,7 @@ aside {
     display: flex;
     flex-direction: column;
 
-    background-color: rgba(0, 128, 0, 0.377);
+    background-color: rgba(208, 218, 208, 0.377);
     padding: 33px;
     margin-right: 44px;
   }
@@ -58,5 +58,6 @@ aside {
     width: 400px;
     background-color: rgba(165, 42, 42, 0.397);
     padding: 22px;
+    color: white;
   }
 }
