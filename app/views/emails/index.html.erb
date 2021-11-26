@@ -1,5 +1,5 @@
 <aside>
-  <%= link_to 'Recevoir un email fictif', emails_path, method: :post, remote: true %>
+  <button> <%= link_to 'Recevoir un email fictif', emails_path, method: :post, remote: true %> </button>
 </aside>
 
 <main class="emails">
@@ -10,7 +10,7 @@
     </div>
     <% @emails.each do |email| %>
       <div> 
-        <%= link_to email.object, email_path(email.id) %>
+        <%= link_to email.object, email_path(email.id), remote: true %>
       </div>  
     <% end %>
   </section>
@@ -19,7 +19,6 @@
     <div class="emails--heading">
       Email sélectionné
     </div>
-    emails__body
   </section>
 
 </main>

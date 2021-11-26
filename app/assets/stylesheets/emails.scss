@@ -37,7 +37,6 @@ aside {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 600px;
   background-color: honeydew;
 
   &--heading {
@@ -52,6 +51,7 @@ aside {
 
     background-color: rgba(0, 128, 0, 0.377);
     padding: 33px;
+    margin-right: 44px;
   }
 
   &__body {

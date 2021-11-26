@@ -1,0 +1,2 @@
+console.log('Showing selected email through AJAX');
+document.getElementsByClassName('emails__body')[0].insertAdjacentHTML("beforeend", "<%= j render 'email_full', email: @email %>");
