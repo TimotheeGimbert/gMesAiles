@@ -28,4 +28,14 @@ class EmailsController < ApplicationController
     end
   end
 
+  def destroy
+    @email = Email.find(params[:id])
+    @email.destroy
+
+    respond_to do |format|
+      format.html { redirect_to emails_path(params[:id]) }
+      format.js { }
+    end
+  end
+
 end
